@@ -1,0 +1,3 @@
+IAM controls who can access things
+Storage should be private
+Logs help detect attacks
