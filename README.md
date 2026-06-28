@@ -1,40 +1,51 @@
-# cloud-security-fundamentals-lab
-Cloud security fundamentals covering IAM, secure storage, and logging concepts using simple documentation.
 # Cloud Security Fundamentals Lab
 
-## What this project is about
-This project explains basic cloud security ideas in simple words.
+## Overview
+This project demonstrates foundational cloud security concepts using simple documentation.
 
 ---
 
-## 1. IAM (User Access Control)
-- Some users have more access than others
-- Admin has full access
+## Objectives
+- Understand Identity and Access Management (IAM)
+- Learn secure storage principles
+- Understand logging and monitoring in cloud systems
+
+---
+
+## 1. Identity and Access Management (IAM)
+IAM controls who can access cloud resources.
+
+- Admin users have full access
 - Normal users have limited access
-- This is called "least privilege"
+- Principle of least privilege is used (minimum required access only)
 
 ---
 
 ## 2. Secure Storage
-- Data should NOT be public
-- Only allowed users can see data
-- Data should be protected
+Cloud data must be protected.
+
+- Data should not be public by default
+- Only authorized users can access data
+- Security controls help prevent data leaks
 
 ---
 
 ## 3. Logging and Monitoring
-- Systems record user activity
-- Logs help find suspicious activity
-- Alerts warn security teams
+Cloud systems track user activity.
+
+- Actions are recorded in logs
+- Logs help detect suspicious behavior
+- Alerts notify security teams of potential threats
 
 ---
 
-## Simple Flow
-User → System → Logs → Alert → Admin
+## Simple Security Flow
+User → Application → Logs → Monitoring → Security Alert → Admin Response
 
 ---
 
-## What I learned
-- Basics of cloud security
-- How access control works
-- Why logging is important
+## Key Learnings
+- Basics of cloud security architecture
+- IAM and access control principles
+- Importance of logging and monitoring
+- Security-first mindset in cloud systems
